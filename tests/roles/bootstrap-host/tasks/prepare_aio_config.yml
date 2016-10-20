@@ -24,7 +24,6 @@
   tags:
     - create-directories
 
-
 - name: Deploy user conf.d configuration
   config_template:
     src: "../etc/openstack_deploy/conf.d/{{ item.name }}"
